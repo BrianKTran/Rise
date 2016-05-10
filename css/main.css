@@ -377,6 +377,10 @@ Services Style
   text-transform: uppercase;
   color: #fff;
 }
+#services h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
 #services p {
   color: #fff;
   
