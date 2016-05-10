@@ -10,16 +10,16 @@ body {
 }
 
 .sep {
-  max-width: 80px;
+  max-width: 150px;
   border: 2px solid #0d0d0d;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
 .light-sep {
-  max-width: 80px;
+  max-width: 150px;
   border: 2px solid #fff;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
@@ -202,14 +202,14 @@ Navigation Style
   padding-right: 15px;
 }
 .navbar-default .nav-wrap {
-  width: 50%;
+  width: 60%;
 }
 .navbar-default .nav > li > a {
   font-size: 14px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 35px 15px;
+  padding: 25px 5px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -220,9 +220,11 @@ Navigation Style
 .navbar-default .nav > li > a:active {
   color: #a3a3a3;
 }
+
+}
 .navbar-default .social-media {
   float: right;
-  padding: 0 15px;
+  padding: 0px 15px;
 }
 .navbar-default .social-media i {
   font-size: 22px;
@@ -246,7 +248,7 @@ Navigation Style
   height: 52px;
 }
 .top-nav-collapse .nav > li > a {
-  padding: 30px 15px;
+  padding: 20px 13px;
 }
 
     /* ==========================================================================
@@ -342,10 +344,13 @@ Sliders Style
   right: -5px;
 }
 
+
+
     /* ==========================================================================
 Welcome Style
 ========================================================================== */
 #welcome {
+z
   padding: 60px 0;
   text-align: center;
 }
@@ -374,44 +379,73 @@ Services Style
 }
 #services p {
   color: #fff;
+  
+
 }
 #services .services-box {
   margin-top: 40px;
 }
-#services .services-box .col-md-4 {
+#services .services-box .col-md-6 {
   margin-bottom: 20px;
 }
-#services .services-box .col-md-4 .media-left,
-#services .services-box .col-md-4 .media-right,
-#services .services-box .col-md-4 .media-body {
+#services .services-box .col-md-6 .media-left,
+#services .services-box .col-md-6 .media-right,
+#services .services-box .col-md-6 .media-body {
   padding-right: 30px;
   vertical-align: baseline;
 }
-#services .services-box .col-md-4 .media-left p,
-#services .services-box .col-md-4 .media-right p,
-#services .services-box .col-md-4 .media-body p {
+#services .services-box .col-md-6 .media-left p,
+#services .services-box .col-md-6 .media-right p,
+#services .services-box .col-md-6 .media-body p {
   text-align: left;
 }
-#services .services-box .col-md-4 .media-left h3,
-#services .services-box .col-md-4 .media-right h3,
-#services .services-box .col-md-4 .media-body h3 {
+#services .services-box .col-md-6 .media-left h3,
+#services .services-box .col-md-6 .media-right h3,
+#services .services-box .col-md-6 .media-body h3 {
   text-transform: uppercase;
   color: #fff;
   text-align: left;
 }
-#services .services-box .col-md-4 .media-left span,
-#services .services-box .col-md-4 .media-right span,
-#services .services-box .col-md-4 .media-body span {
+#services .services-box .col-md-6 .media-left span,
+#services .services-box .col-md-6 .media-right span,
+#services .services-box .col-md-6 .media-body span {
   font-size: 36px;
   color: #fff;
 }
-
+#services .services-box .col-md-12 {
+  margin-bottom: 20px;
+}
+#services .services-box .col-md-12 .media-left,
+#services .services-box .col-md-12 .media-right,
+#services .services-box .col-md-12 .media-body {
+  padding-right: 30px;
+  vertical-align: baseline;
+}
+#services .services-box .col-md-12 .media-left p,
+#services .services-box .col-md-12 .media-right p,
+#services .services-box .col-md-12 .media-body p {
+  text-align: left;
+}
+#services .services-box .col-md-12 .media-left h3,
+#services .services-box .col-md-12 .media-right h3,
+#services .services-box .col-md-12 .media-body h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+#services .services-box .col-md-12 .media-left span,
+#services .services-box .col-md-12 .media-right span,
+#services .services-box .col-md-12.media-body span {
+  font-size: 36px;
+  color: #fff;
+}
     /* ==========================================================================
 Portfolio Style
 ========================================================================== */
 #portfolio {
   padding: 60px 0;
   text-align: center;
+  background: 	#C0C0C0;
 }
 #portfolio h2 {
   text-transform: uppercase;
@@ -781,4 +815,22 @@ Media Queries Style
   #testimonials h5 {
     font-size: 18px;
   }
+}
+
+
+#responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+
+#responsive-video iframe,
+#responsive-video object,
+#responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
