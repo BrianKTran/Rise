@@ -1,4 +1,3 @@
-
 <?php
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
@@ -28,11 +27,10 @@ else                /* send the submitted data */
    else{        
        $from="From: $name<$email>\r\nReturn-path: $email";
        $subject="Message sent using your contact form";
-       mail("youremail@yoursite.com", $subject, $message, $from);
+       mail("brianktran810@gmail.com", $subject, $message, $from);
        echo "Email sent!";
        }
    }  
-
 /*
 // Check for empty fields
 if(empty($_POST['name'])        ||
