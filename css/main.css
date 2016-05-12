@@ -244,7 +244,7 @@ Navigation Style
   height: auto;
 }
 .top-nav-collapse .navbar-brand img {
-  width: 52px;
+  width: 55px;
   height: 52px;
 }
 .top-nav-collapse .nav > li > a {
@@ -347,249 +347,315 @@ Sliders Style
 
 
     /* ==========================================================================
-Welcome Style
+Prophet Corner Header Style
 ========================================================================== */
-#welcome {
-z
+#prophetcornerheader {
+ z
   padding: 60px 0;
   text-align: center;
 }
-#welcome h2 {
+#prophetcornerheader h2 {
   text-transform: uppercase;
 }
-#welcome h2 span {
+#prophetcornerheader h2 span {
   font-weight: 700;
 }
-#welcome img {
+#prophetcornerheader img {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
     /* ==========================================================================
-Services Style
+prophetbody Style
 ========================================================================== */
-#services {
+#prophetbody {
   background: #24242a;
   padding: 60px 0;
   text-align: center;
 }
-#services h2 {
+#prophetbody h2 {
   text-transform: uppercase;
   color: #fff;
 }
-#services h3 {
+#prophetbody h3 {
   text-transform: uppercase;
   color: #fff;
 }
-#services p {
+#prophetbody p {
+  
   color: #fff;
   
 
 }
-#services .services-box {
-  margin-top: 40px;
+#prophetbody .prophetbody-box {
+  margin-top: 10px;
 }
-#services .services-box .col-md-6 {
+#prophetbody .prophetbody-box .col-md-6 {
   margin-bottom: 20px;
 }
-#services .services-box .col-md-6 .media-left,
-#services .services-box .col-md-6 .media-right,
-#services .services-box .col-md-6 .media-body {
-  padding-right: 30px;
+#prophetbody .prophetbody-box .col-md-6 .media-left,
+#prophetbody .prophetbody-box .col-md-6 .media-right,
+#prophetbody .prophetbody-box .col-md-6 .media-body {
+  padding-right: 10px;
   vertical-align: baseline;
 }
-#services .services-box .col-md-6 .media-left p,
-#services .services-box .col-md-6 .media-right p,
-#services .services-box .col-md-6 .media-body p {
-  text-align: left;
+#prophetbody .prophetbody-box .col-md-6 .media-left p,
+#prophetbody .prophetbody-box .col-md-6 .media-right p,
+#prophetbody .prophetbody-box .col-md-6 .media-body p {
+  text-align: justify;
+  line-height: 200%
 }
-#services .services-box .col-md-6 .media-left h3,
-#services .services-box .col-md-6 .media-right h3,
-#services .services-box .col-md-6 .media-body h3 {
+#prophetbody .prophetbody-box .col-md-6 .media-left h3,
+#prophetbody .prophetbody-box .col-md-6 .media-right h3,
+#prophetbody .prophetbody-box .col-md-6 .media-body h3 {
   text-transform: uppercase;
   color: #fff;
   text-align: left;
 }
-#services .services-box .col-md-6 .media-left span,
-#services .services-box .col-md-6 .media-right span,
-#services .services-box .col-md-6 .media-body span {
+#prophetbody .prophetbody-box .col-md-6 .media-left span,
+#prophetbody .prophetbody-box .col-md-6 .media-right span,
+#prophetbody .prophetbody-box .col-md-6 .media-body span {
   font-size: 36px;
   color: #fff;
 }
-#services .services-box .col-md-12 {
+#prophetbody .prophetbody-box .col-md-12 {
+ 
   margin-bottom: 20px;
 }
-#services .services-box .col-md-12 .media-left,
-#services .services-box .col-md-12 .media-right,
-#services .services-box .col-md-12 .media-body {
-  padding-right: 30px;
+#prophetbody .prophetbody-box .col-md-12 .media-left,
+#prophetbody .prophetbody-box .col-md-12 .media-right,
+#prophetbody .prophetbody-box .col-md-12 .media-body {
+  padding-right: 15px;
   vertical-align: baseline;
 }
-#services .services-box .col-md-12 .media-left p,
-#services .services-box .col-md-12 .media-right p,
-#services .services-box .col-md-12 .media-body p {
-  text-align: left;
+#prophetbody .prophetbody-box .col-md-12 .media-left p,
+#prophetbody .prophetbody-box .col-md-12 .media-right p,
+#prophetbody .prophetbody-box .col-md-12 .media-body p {
+  text-align: justify;
+  line-height: 200%
 }
-#services .services-box .col-md-12 .media-left h3,
-#services .services-box .col-md-12 .media-right h3,
-#services .services-box .col-md-12 .media-body h3 {
+#prophetbody .prophetbody-box .col-md-12 .media-left h3,
+#prophetbody .prophetbody-box .col-md-12 .media-right h3,
+#prophetbody .prophetbody-box .col-md-12 .media-body h3 {
   text-transform: uppercase;
   color: #fff;
   text-align: left;
 }
-#services .services-box .col-md-12 .media-left span,
-#services .services-box .col-md-12 .media-right span,
-#services .services-box .col-md-12.media-body span {
+#prophetbody .prophetbody-box .col-md-12 .media-left span,
+#prophetbody .prophetbody-box .col-md-12 .media-right span,
+#prophetbody .prophetbody-box .col-md-12.media-body span {
   font-size: 36px;
   color: #fff;
 }
+
+
+
     /* ==========================================================================
-Portfolio Style
+Message Title Style (Orange Box) for Prophet Corner
 ========================================================================== */
-#portfolio {
+
+#prophetbody .prophetbody-box .msgtitle .legend{
+    position: relative;
+  width: 100%;
+  display: block;
+  background: #FF7052;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  }
+  
+ #prophetbody .prophetbody-box .msgtitle .legend:after{
+ content: "";
+  background-image: url(http://simpleicon.com/wp-content/uploads/multy-user.png);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: 152px -16px;
+  opacity: 0.06;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  }
+
+  /* ==========================================================================
+Seeds of Faith Header Style
+========================================================================== */
+#seedoffaithheader {
+ z
   padding: 60px 0;
   text-align: center;
-  background: 	#C0C0C0;
 }
-#portfolio h2 {
+#seedoffaithheader h2 {
   text-transform: uppercase;
 }
-#portfolio p {
-  margin-bottom: 40px;
-}
-#portfolio .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
-#portfolio .container-fluid .col-lg-4 {
-  padding-left: 0;
-  padding-right: 0;
-}
-#portfolio .portfolio-box {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  max-width: 650px;
-}
-#portfolio .portfolio-box .portfolio-box-caption {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: #fff;
-  opacity: 0;
-  background: rgba(13, 13, 13, 0.6);
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  transform: translateY(-50%);
-}
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  padding: 0 15px;
-}
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
-  font-size: 22px;
+#seedoffaithheader h2 span {
   font-weight: 700;
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
-}
-#portfolio .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
-}
-
-    /* ==========================================================================
-Work Process Style
-========================================================================== */
-#work-process {
-  padding: 60px 0;
-  text-align: center;
-}
-#work-process .col-lg-3 {
+#seedoffaithheader img {
   margin-top: 40px;
-}
-#work-process h2 {
-  text-transform: uppercase;
-}
-#work-process h4 {
-  text-transform: uppercase;
-  color: #0d0d0d;
-}
-#work-process span {
-  font-size: 48px;
-  color: #0d0d0d;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
-    /* ==========================================================================
-Fun Facts Style
+
+ /* ==========================================================================
+Seeds Of Faith Body Style
 ========================================================================== */
-#fun-facts {
+#seedoffaithbody {
   background: #24242a;
   padding: 60px 0;
   text-align: center;
 }
-#fun-facts .col-lg-3 {
-  margin-top: 40px;
+#seedoffaithbody h2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+#seedoffaithbody h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
+#seedoffaithbody p {
+  
+  color: #fff;
+  
+
+}
+#seedoffaithbody .seedoffaithbody-box {
+  margin-top: 10px;
+}
+#seedoffaithbody .seedoffaithbody .col-md-6 {
   margin-bottom: 20px;
+  padding-right: 10px;
+  
 }
-#fun-facts h2 {
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-left,
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-right,
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-body {
+  padding-right: 10px;
+  vertical-align: baseline;
+}
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-left p,
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-right p,
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-body p {
+  text-align: justify;
+  line-height: 200%
+}
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-left h3,
+#seedoffaithbodyy .seedoffaithbody-box .col-md-6 .media-right h3,
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-body h3 {
   text-transform: uppercase;
   color: #fff;
+  text-align: left;
 }
-#fun-facts p {
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-left span,
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-right span,
+#seedoffaithbody .seedoffaithbody-box .col-md-6 .media-body span {
+  font-size: 36px;
   color: #fff;
 }
-#fun-facts h4 {
+#seedoffaithbody .seedoffaithbody .col-md-12 {
+  margin-bottom: 20px;
+  padding-bottom:50px;
+}
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-left,
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-right,
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-body {
+  padding-right: 15px;
+  vertical-align: baseline;
+}
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-left p,
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-right p,
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-body p {
+  text-align: justify;
+  line-height: 200%
+}
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-left h3,
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-right h3,
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-body h3 {
   text-transform: uppercase;
   color: #fff;
+  text-align: left;
 }
-#fun-facts .number {
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-left span,
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-right span,
+#seedoffaithbody .seedoffaithbody-box .col-md-12 .media-body span {
+  font-size: 36px;
   color: #fff;
-  font-weight: 700;
-  padding: 10px 0;
-  margin: 0;
-}
-#fun-facts span {
-  font-size: 48px;
-  color: #fff;
-  margin-bottom: 15px;
 }
 
-    /* ==========================================================================
-Our Team Style
+
+ /* ==========================================================================
+Message Title Style (Orange Box) for Prophet Corner
 ========================================================================== */
-#team {
+
+
+
+#seedoffaithbody .seedoffaithbody-box .seedslogin{
+  
+position: relative;
+  top: 0%;
+  width:auto;
+  margin: auto auto auto auto;
+  background: #fff;
+  border-radius: 5px;
+}
+#seedoffaithbody .seedoffaithbody-box .seedslegend{
+    position: relative;
+  width: 100%;
+  display: block;
+  background:#87CEFA;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  }
+  
+ #seedoffaithbody .seedoffaithbody-box .seedslegend:after{
+ content: "";
+  background-image: url(http://simpleicon.com/wp-content/uploads/multy-user.png);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: 152px -16px;
+  opacity: 0.06;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  }
+  
+  .sepe {
+  max-width: auto;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 40px;
+   }
+    
+    /* ==========================================================================
+Donate Style
+========================================================================== */
+#donate {
+background: #B0C4DE;
   padding: 60px 0;
   text-align: center;
 }
-#team h2 {
+#donate h2 {
   text-transform: uppercase;
 }
-#team .team {
+#donate .donate {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-#team .team h4 {
+#donate .donate h4 {
   margin-top: 20px;
   text-transform: uppercase;
   font-weight: 700;
 }
-#team .team p {
+#donate .donate p {
   color: #a3a3a3;
 }
-#team .team a {
+#donate .donate a {
   color: #0d0d0d;
   font-size: 22px;
   padding-right: 10px;
@@ -598,82 +664,28 @@ Our Team Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#team .team a:hover,
-#team .team a:focus,
-#team .team a:active {
+#donate .donate a:hover,
+#donate .donate a:focus,
+#donate .donate a:active {
   color: #a3a3a3;
 }
 
-    /* ==========================================================================
-Testimonials Style
-========================================================================== */
-#testimonials {
-  background-image: url("../img/testimonials/Testimonials.jpg");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding: 60px 0;
-  text-align: center;
-}
-#testimonials h2 {
-  text-transform: uppercase;
-  color: #fff;
-}
-#testimonials p {
-  color: #fff;
-}
-#testimonials .item .quote {
-  margin: 20px auto;
-  width: 80%;
-}
-#testimonials .item .quote .right {
-  margin-left: 40px;
-  font-size: 32px;
-  color: #fff;
-}
-#testimonials .item .quote .left {
-  float: left;
-  margin-right: 40px;
-  color: #fff;
-}
-#testimonials .item h5 {
-  color: #fff;
-  line-height: 36px;
-}
-#testimonials .item h5 span {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-#testimonials .owl-pagination .owl-page.active span {
-  background-color: #fff;
-}
-#testimonials .owl-pagination .owl-page span {
-  border: 2px solid #fff;
-  border-radius: 50%;
-  background: transparent;
-  opacity: 1;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
+    
     /* ==========================================================================
 Contact Us Style
 ========================================================================== */
 #contact {
-  padding: 60px 0;
+  padding: 100px 0;
   text-align: center;
 }
 #contact h2 {
   text-transform: uppercase;
 }
+#contact h6 {
+  margin: 0px;
+}
 #contact form {
-  margin: 40px 0;
+  margin: 10px 0;
 }
 #contact .form-group {
   margin-bottom: 35px;
@@ -690,14 +702,13 @@ Contact Us Style
   height: 140px;
   resize: none;
 }
-
-    /* ==========================================================================
-Google Map Style
-========================================================================== */
-#map {
-  width: 100%;
-  height: 400px;
+.contactsep {
+  max-width: 250px;
+  border: 2px solid #0d0d0d;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 
     /* ==========================================================================
 Footer Map Style
@@ -707,9 +718,9 @@ footer {
   padding: 60px 0;
   text-align: center;
 }
-footer h1 {
-  text-transform: uppercase;
-  font-weight: 700;
+footer p {
+  color: #fff;
+}
 }
 footer .social {
   margin: 40px 0;
@@ -806,8 +817,8 @@ Media Queries Style
     display: none;
   }
 
-  /*-- Services --*/
-  #services h3 {
+  /*-- prophetbody --*/
+  #prophetbody h3 {
     font-size: 22px;
   }
 
@@ -838,3 +849,5 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+
