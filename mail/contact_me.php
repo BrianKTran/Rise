@@ -1,5 +1,5 @@
 <?php
-<<<<<<< HEAD
+
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
    {
@@ -61,7 +61,7 @@ $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 <<<<<<< HEAD
 return true;      
-*/      
+   
 ?>)
 =======
 return true;			
@@ -119,6 +119,7 @@ if($_POST) {
         die($output);
     }
 }
->>>>>>> master
+*/   
+
 ?>
->>>>>>> nirav
+
