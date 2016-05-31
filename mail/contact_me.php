@@ -1,5 +1,41 @@
 <?php
+
+$action=$_REQUEST['action'];
+if ($action=="")    /* display the contact form */
+   {
+   ?>
+   <form  action="" method="POST" enctype="multipart/form-data">
+   <input type="hidden" name="action" value="submit">
+   Your name:<br>
+   <input name="name" type="text" value="" size="30"/><br>
+   Your email:<br>
+   <input name="email" type="text" value="" size="30"/><br>
+   Your message:<br>
+   <textarea name="message" rows="7" cols="30"></textarea><br>
+   <input type="submit" value="Send email"/>
+   </form>
+   <?php
+   } 
+else                /* send the submitted data */
+   {
+   $name=$_REQUEST['name'];
+   $email=$_REQUEST['email'];
+   $message=$_REQUEST['message'];
+   if (($name=="")||($email=="")||($message==""))
+       {
+       echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+       }
+   else{        
+       $from="From: $name<$email>\r\nReturn-path: $email";
+       $subject="Message sent using your contact form";
+       mail("brianktran810@gmail.com", $subject, $message, $from);
+       echo "Email sent!";
+       }
+   }  
+/*
+=======
 <<<<<<< HEAD
+>>>>>>> nirav
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
@@ -23,6 +59,11 @@ $email_body = "You have received a new message from your website contact form.\n
 $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
+<<<<<<< HEAD
+return true;      
+   
+?>)
+=======
 return true;			
 =======
 if($_POST) {
@@ -78,5 +119,7 @@ if($_POST) {
         die($output);
     }
 }
->>>>>>> master
+*/   
+
 ?>
+
