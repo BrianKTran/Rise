@@ -196,7 +196,10 @@ Navigation Style
   background: rgba(13, 13, 13, 0.6);
   margin-bottom: 0;
   border: none;
+  padding-top:15px;
+  padding-bottom:0px;
 }
+
 .navbar-default .navbar-header {
   width: 28%;
   padding-right: 15px;
@@ -204,12 +207,13 @@ Navigation Style
 .navbar-default .nav-wrap {
   width: 60%;
 }
+
 .navbar-default .nav > li > a {
+  padding:15px;
   font-size: 14px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 25px 5px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -237,15 +241,24 @@ Navigation Style
   color: #a3a3a3;
 }
 
+.navbar-default .navbar-header .navbar-brand {
+    height: auto;
+    
+  }
+.navbar-default .navbar-header .navbar-brand img {
+    width: 52px;
+    height: 52px;
+  }
 .top-nav-collapse {
   background: #24242a;
+  padding: 0px !important
 }
 .top-nav-collapse .navbar-brand {
   height: auto;
 }
 .top-nav-collapse .navbar-brand img {
-  width: 55px;
-  height: 52px;
+  width: 65px;
+  height: 65px;
 }
 .top-nav-collapse .nav > li > a {
   padding: 20px 13px;
@@ -748,8 +761,7 @@ footer h6 {
 Media Queries Style
 ========================================================================== */
 @media (max-width: 992px) {
-  /*-- Navigation --*/
-  .navbar-default {
+  -- Navigation --  .navbar-default {
     background: #24242a;
   }
   .navbar-default .navbar-header {
