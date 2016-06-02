@@ -11,7 +11,7 @@ body {
 
 .sep {
   max-width: 150px;
-  border: 2px solid #0d0d0d;
+  border: 2px solid white;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -362,20 +362,39 @@ Sliders Style
     /* ==========================================================================
 Prophet Corner Header Style
 ========================================================================== */
-#prophetcornerheader {
- z
-  padding: 60px 0;
+
+body {
   text-align: center;
+  font-family: sans-serif;
 }
-#prophetcornerheader h2 {
-  text-transform: uppercase;
+
+#prophetcornerheader {
+	height: 480px;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
 }
-#prophetcornerheader h2 span {
-  font-weight: 700;
+#prophetcornerheader p{
+  font-size: 1.5em; 
+  color: white;
+  text-transform:uppercase;
 }
-#prophetcornerheader img {
-  margin-top: 40px;
-  margin-bottom: 40px;
+
+#prophetcornerheader video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  top: -150px;
+  left: 10;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+}
+
+#prophetcornerheader h1{
+ 	font-size: 3em; 
+ 	text-transform:uppercase;
+ 	 font-weight: bold;
 }
 
     /* ==========================================================================
@@ -495,22 +514,39 @@ Message Title Style (Orange Box) for Prophet Corner
   /* ==========================================================================
 Seeds of Faith Header Style
 ========================================================================== */
-#seedoffaithheader {
- z
-  padding: 60px 0;
+body {
   text-align: center;
-}
-#seedoffaithheader h2 {
-  text-transform: uppercase;
-}
-#seedoffaithheader h2 span {
-  font-weight: 700;
-}
-#seedoffaithheader img {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  font-family: sans-serif;
 }
 
+#seedoffaithheader {
+	height: 480px;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+}
+#seedoffaithheader p{
+  font-size: 1.5em; 
+  color: white;
+  text-transform:uppercase;
+}
+
+#seedoffaithheader video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  top: -150px;
+  left: 10;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+}
+
+#seedoffaithheader h1{
+ 	font-size: 2em; 
+ 	text-transform:uppercase;
+ 	 font-weight: bold;
+}
 
  /* ==========================================================================
 Seeds Of Faith Body Style
