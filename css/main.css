@@ -11,7 +11,7 @@ body {
 
 .sep {
   max-width: 150px;
-  border: 2px solid #0d0d0d;
+  border: 2px solid white;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -196,7 +196,10 @@ Navigation Style
   background: rgba(13, 13, 13, 0.6);
   margin-bottom: 0;
   border: none;
+  padding-top:15px;
+  padding-bottom:0px;
 }
+
 .navbar-default .navbar-header {
   width: 28%;
   padding-right: 15px;
@@ -204,12 +207,13 @@ Navigation Style
 .navbar-default .nav-wrap {
   width: 60%;
 }
+
 .navbar-default .nav > li > a {
+  padding:15px;
   font-size: 14px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 25px 5px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -237,15 +241,24 @@ Navigation Style
   color: #a3a3a3;
 }
 
+.navbar-default .navbar-header .navbar-brand {
+    height: auto;
+    
+  }
+.navbar-default .navbar-header .navbar-brand img {
+    width: 52px;
+    height: 52px;
+  }
 .top-nav-collapse {
   background: #24242a;
+  padding: 0px !important
 }
 .top-nav-collapse .navbar-brand {
   height: auto;
 }
 .top-nav-collapse .navbar-brand img {
-  width: 55px;
-  height: 52px;
+  width: 65px;
+  height: 65px;
 }
 .top-nav-collapse .nav > li > a {
   padding: 20px 13px;
@@ -349,20 +362,39 @@ Sliders Style
     /* ==========================================================================
 Prophet Corner Header Style
 ========================================================================== */
-#prophetcornerheader {
- z
-  padding: 60px 0;
+
+body {
   text-align: center;
+  font-family: sans-serif;
 }
-#prophetcornerheader h2 {
-  text-transform: uppercase;
+
+#prophetcornerheader {
+	height: 480px;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
 }
-#prophetcornerheader h2 span {
-  font-weight: 700;
+#prophetcornerheader p{
+  font-size: 1.5em; 
+  color: white;
+  text-transform:uppercase;
 }
-#prophetcornerheader img {
-  margin-top: 40px;
-  margin-bottom: 40px;
+
+#prophetcornerheader video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  top: -150px;
+  left: 10;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+}
+
+#prophetcornerheader h1{
+ 	font-size: 3em; 
+ 	text-transform:uppercase;
+ 	 font-weight: bold;
 }
 
     /* ==========================================================================
@@ -482,22 +514,39 @@ Message Title Style (Orange Box) for Prophet Corner
   /* ==========================================================================
 Seeds of Faith Header Style
 ========================================================================== */
-#seedoffaithheader {
- z
-  padding: 60px 0;
+body {
   text-align: center;
-}
-#seedoffaithheader h2 {
-  text-transform: uppercase;
-}
-#seedoffaithheader h2 span {
-  font-weight: 700;
-}
-#seedoffaithheader img {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  font-family: sans-serif;
 }
 
+#seedoffaithheader {
+	height: 480px;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+}
+#seedoffaithheader p{
+  font-size: 1.5em; 
+  color: white;
+  text-transform:uppercase;
+}
+
+#seedoffaithheader video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  top: -150px;
+  left: 10;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+}
+
+#seedoffaithheader h1{
+ 	font-size: 2em; 
+ 	text-transform:uppercase;
+ 	 font-weight: bold;
+}
 
  /* ==========================================================================
 Seeds Of Faith Body Style
@@ -748,8 +797,7 @@ footer h6 {
 Media Queries Style
 ========================================================================== */
 @media (max-width: 992px) {
-  /*-- Navigation --*/
-  .navbar-default {
+  -- Navigation --  .navbar-default {
     background: #24242a;
   }
   .navbar-default .navbar-header {
