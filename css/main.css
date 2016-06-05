@@ -857,12 +857,14 @@ Media Queries Style
   }
   #owl-hero h6 {
     font-size: 16px;
+        margin-bottom: -20px;
   }
   #owl-hero .btn {
     margin-top: 20px;
   }
   #owl-hero .owl-buttons {
     display: none;
+
   }
 
   /*-- prophetbody --*/
